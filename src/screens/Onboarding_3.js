@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Onboding_1 = () => {
+const Onboarding_3 = () => {
   return (
     <View>
-      <Text>Onboding_1</Text>
+      <Text>Onboarding_3</Text>
     </View>
   )
 }
 
-export default Onboding_1
+export default Onboarding_3

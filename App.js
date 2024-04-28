@@ -1,9 +1,9 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Onboding_1 from './src/screens/Onboding_1';
-import Onboding_2 from './src/screens/Onboding_2';
-import Onboding_3 from './src/screens/Onboding_3';
+import Onboarding_1 from './src/screens/Onboarding_1';
+import Onboarding_2 from './src/screens/Onboarding_2';
+import Onboarding_3 from './src/screens/Onboarding_3';
 import { NavigationContainer } from '@react-navigation/native';
 
 const App = () => {
@@ -12,9 +12,9 @@ const App = () => {
   const BottomTabScreen = () => {
     return (
         <Tab.Navigator>
-          <Tab.Screen name="Onboding_1" component={Onboding_1} />
-          <Tab.Screen name="Onboding_2" component={Onboding_2} />
-          <Tab.Screen name="Onboding_3" component={Onboding_3} />
+          <Tab.Screen name="Onboarding_1" component={Onboarding_1} />
+          <Tab.Screen name="Onboarding_2" component={Onboarding_2} />
+          <Tab.Screen name="Onboarding_3" component={Onboarding_3} />
         </Tab.Navigator>
     );
   }
