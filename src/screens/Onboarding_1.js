@@ -19,11 +19,13 @@ const Onboarding_1 = () => {
         <View>
           <Text style={{
             color: '#000000',
-            paddingLeft: 20
+            paddingLeft: 20,
+            paddingRight: 20,
           }}>노라와 함께라면 외롭지 않아요!</Text>
           <Text style={{
             color: '#000000',
-            paddingLeft: 20
+            paddingLeft: 20,
+            paddingRight: 20,
           }}>자유롭게 회원님의 이야기를 들려주세요</Text>
         </View>
         {/* <View style={{
@@ -46,7 +48,7 @@ const Onboarding_1 = () => {
             justifyContent: 'center',
             alignItems: 'center',
             position: 'fixed',
-            bottom: 100,
+            bottom: 103,
             borderRadius: 10,
           }}>
             <Text style={{
